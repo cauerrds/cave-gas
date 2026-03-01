@@ -91,12 +91,12 @@ const Services = () => {
                 Atuamos em projetos residenciais e comerciais com equipe técnica especializada.
               </p>
               <a
-                href="#contato"
+                href="https://wa.me/554198904364"
                 className="inline-flex items-center gap-2 text-secondary font-heading font-bold text-sm hover:gap-3 transition-all"
               >
                 Solicitar orçamento
                 <ArrowRight className="w-4 h-4" />
-              </a>
+              </a>W
             </motion.div>
 
             <motion.div
@@ -160,24 +160,18 @@ const Services = () => {
                 Cavê <span className="text-secondary">Serviços</span>
               </h2>
               <p className="text-muted-foreground text-lg leading-relaxed mb-6">
-                Projetos, laudos e soluções especializadas para todos os segmentos.
+                Laudos e soluções especializadas para todos os segmentos.
                 Atendemos desde pequenas residências até grandes empreendimentos comerciais.
               </p>
               <a
-                href="#contato"
+                href="https://wa.me/554198904364"
                 className="inline-flex items-center gap-2 text-secondary font-heading font-bold text-sm hover:gap-3 transition-all"
               >
                 Fale conosco
                 <ArrowRight className="w-4 h-4" />
               </a>
             </motion.div>
-          </div>
-
-          <div className="grid md:grid-cols-3 gap-5">
-            {generalServices.map((service, i) => (
-              <ServiceCard key={service.title} {...service} index={i} />
-            ))}
-          </div>
+          </div>31
         </div>
       </div>
     </section>

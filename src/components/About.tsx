@@ -1,9 +1,9 @@
 import { motion } from "framer-motion";
-import { Award, Users, CheckCircle, Clock } from "lucide-react";
+import { Award, MapPin, CheckCircle, Clock } from "lucide-react";
 
 const stats = [
-  { icon: Award, value: "15+", label: "Anos de experiência" },
-  { icon: Users, value: "2.000+", label: "Clientes atendidos" },
+  { icon: Award, value: "15+", label: "Profissional com +15 anos de experiência" },
+  { icon: MapPin, value: "PR", label: "Atendimento em Curitiba e região" },
   { icon: CheckCircle, value: "100%", label: "Conformidade técnica" },
   { icon: Clock, value: "24h", label: "Atendimento rápido" },
 ];
@@ -28,9 +28,9 @@ const About = () => {
               <span className="text-secondary">instalações de gás</span>
             </h2>
             <p className="text-muted-foreground text-lg leading-relaxed mb-6">
-              A Cavê Instalações de Gás atua há mais de 15 anos no mercado, oferecendo
-              serviços de instalação, manutenção e teste de estanqueidade para
-              residências, comércios e indústrias.
+              A Cavê Instalações de Gás oferece serviços de instalação, manutenção e
+              teste de estanqueidade para residências, comércios e indústrias, com foco
+              total em segurança e qualidade.
             </p>
             <p className="text-muted-foreground leading-relaxed">
               Nossa equipe é formada por profissionais certificados e comprometidos com

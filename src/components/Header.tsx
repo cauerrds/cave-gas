@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Menu, X, Phone } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
-import logo from "@/assets/logo_cave.png";
+import logo from "@/assets/logo_gas.png";
 
 const Header = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -45,11 +45,10 @@ const Header = () => {
             </a>
           ))}
           <a
-            href="tel:+5500000000000"
             className="inline-flex items-center gap-2 bg-secondary text-secondary-foreground px-5 py-2.5 rounded-lg font-heading text-sm font-bold hover:brightness-110 transition-all shadow-md shadow-secondary/20"
           >
             <Phone className="w-4 h-4" />
-            Ligue Agora
+            Fale no WhatsApp
           </a>
         </nav>
 
@@ -83,11 +82,13 @@ const Header = () => {
                 </a>
               ))}
               <a
-                href="tel:+5500000000000"
+                href="https://wa.me/554198904364"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 bg-secondary text-secondary-foreground px-5 py-2.5 rounded-lg font-heading text-sm font-bold"
               >
                 <Phone className="w-4 h-4" />
-                Ligue Agora
+                Fale no WhatsApp
               </a>
             </nav>
           </motion.div>
