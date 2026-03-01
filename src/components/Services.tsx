@@ -171,7 +171,7 @@ const Services = () => {
                 <ArrowRight className="w-4 h-4" />
               </a>
             </motion.div>
-          </div>31
+          </div>
         </div>
       </div>
     </section>
