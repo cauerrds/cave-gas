@@ -32,7 +32,7 @@ const Footer = () => {
                 { label: "Início", href: "#inicio" },
                 { label: "Sobre", href: "#sobre" },
                 { label: "Serviços", href: "#servicos" },
-                { label: "Contato", href: "#contato" },
+                { label: "Contato", href: "https://wa.me/554198904364" },
               ].map((link) => (
                 <li key={link.label}>
                   <a

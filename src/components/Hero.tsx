@@ -55,7 +55,7 @@ const Hero = () => {
               <ArrowRight className="w-5 h-5" />
             </a>
             <a
-              href="#contato"
+              href="https://wa.me/554198904364"
               className="inline-flex items-center justify-center gap-2 border-2 border-background/30 text-background px-8 py-4 rounded-lg font-heading text-base font-bold hover:bg-background/10 transition-all"
             >
               <ShieldCheck className="w-5 h-5" />

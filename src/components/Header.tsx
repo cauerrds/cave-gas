@@ -45,6 +45,7 @@ const Header = () => {
             </a>
           ))}
           <a
+            href="https://wa.me/554198904364"
             className="inline-flex items-center gap-2 bg-secondary text-secondary-foreground px-5 py-2.5 rounded-lg font-heading text-sm font-bold hover:brightness-110 transition-all shadow-md shadow-secondary/20"
           >
             <Phone className="w-4 h-4" />
