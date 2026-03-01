@@ -1,25 +1,129 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- TODO: Set the document title to the name of your application -->
-    <title>Lovable App</title>
-    <meta name="description" content="Lovable Generated Project" />
-    <meta name="author" content="Lovable" />
 
-    <!-- TODO: Update og:title to match your application name -->
-    <meta property="og:title" content="Lovable App" />
-    <meta property="og:description" content="Lovable Generated Project" />
+    <!-- Primary SEO -->
+    <title>Cavê Gás | Instalação de Gás, Teste de Estanqueidade e Manutenção</title>
+    <meta
+      name="description"
+      content="Cavê Gás: instalação de gás residencial e comercial, teste de estanqueidade, adequação e manutenção. Atendimento em Curitiba e Região Metropolitana. Orçamento rápido no WhatsApp."
+    />
+    <meta
+      name="keywords"
+      content="instalação de gás, teste de estanqueidade, manutenção de gás, tubulação de gás, laudo de estanqueidade, vazamento de gás, conversão de fogão, GLP, gás encanado, Curitiba"
+    />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <meta name="googlebot" content="index, follow" />
+
+    <!-- Canonical (ajuste para o seu domínio real) -->
+    <link rel="canonical" href="https://gas.cavesolucoes.com.br/" />
+
+    <!-- Favicons / App icons (ajuste os paths) -->
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <meta name="theme-color" content="#0f172a" />
+
+    <!-- Language / region hints -->
+    <meta name="language" content="Portuguese" />
+    <meta name="geo.region" content="BR-PR" />
+    <meta name="geo.placename" content="Curitiba" />
+
+    <!-- Open Graph -->
+    <meta property="og:locale" content="pt_BR" />
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+    <meta property="og:site_name" content="Cavê Gás" />
+    <meta property="og:title" content="Cavê Gás | Instalação de Gás e Teste de Estanqueidade" />
+    <meta
+      property="og:description"
+      content="Instalação e manutenção de gás com segurança: teste de estanqueidade, adequação e reparos. Atendimento em Curitiba e Região Metropolitana."
+    />
+    <meta property="og:url" content="https://gas.cavesolucoes.com.br/" />
+    <meta property="og:image" content="https://gas.cavesolucoes.com.br/og-cave-gas.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
 
+    <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@Lovable" />
-    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+    <meta name="twitter:title" content="Cavê Gás | Instalação de Gás e Estanqueidade" />
+    <meta
+      name="twitter:description"
+      content="Instalação e manutenção de gás, teste de estanqueidade e adequações. Atendimento em Curitiba e RMC."
+    />
+    <meta name="twitter:image" content="https://gas.cavesolucoes.com.br/og-cave-gas.jpg" />
+
+    <!-- Performance: preconnect (se você usar Google Fonts, por exemplo) -->
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" /> -->
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /> -->
+
+    <!-- Structured Data: Local Business + Service (ajuste telefone, endereço, área, links, imagem) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Cavê Gás",
+        "url": "https://gas.cavesolucoes.com.br/",
+        "image": "https://gas.cavesolucoes.com.br/og-cave-gas.jpg",
+        "description": "Instalação de gás, teste de estanqueidade, adequação e manutenção residencial e comercial em Curitiba e Região Metropolitana.",
+        "areaServed": [
+          { "@type": "City", "name": "Curitiba" },
+          { "@type": "AdministrativeArea", "name": "Região Metropolitana de Curitiba" },
+          { "@type": "State", "name": "Paraná" }
+        ],
+        "telephone": "+55XXXXXXXXXXX",
+        "priceRange": "$$",
+        "sameAs": [
+          "https://www.instagram.com/SEU_INSTAGRAM",
+          "https://www.facebook.com/SUA_PAGINA"
+        ],
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Curitiba",
+          "addressRegion": "PR",
+          "addressCountry": "BR"
+        },
+        "makesOffer": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Instalação de Gás",
+              "serviceType": "Instalação de Gás Residencial e Comercial",
+              "areaServed": "Curitiba e Região Metropolitana"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Teste de Estanqueidade",
+              "serviceType": "Teste de Estanqueidade e Detecção de Vazamentos",
+              "areaServed": "Curitiba e Região Metropolitana"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Manutenção e Adequação",
+              "serviceType": "Manutenção preventiva/corretiva e adequação de tubulação",
+              "areaServed": "Curitiba e Região Metropolitana"
+            }
+          }
+        ]
+      }
+    </script>
+
+    <!-- If your SPA needs better indexing: consider prerender/SSR later -->
   </head>
 
   <body>
+    <noscript>
+      Você precisa habilitar JavaScript para usar o site da Cavê Gás.
+    </noscript>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
